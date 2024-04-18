@@ -15,7 +15,7 @@ Para iniciar o projeto, frontend, backend e o banco de dados,
 navegue até a pasta Desafio-Gazintech-FullStack e execute o comando:
 
 ```
-docker-compose up -d --build
+docker-compose up -d
 ```
 
 Após a execução terminar, as aplicações estarão disponíveis em:
