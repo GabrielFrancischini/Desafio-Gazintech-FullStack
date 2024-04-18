@@ -11,7 +11,6 @@ const FormatarDataBR = (data) => {
 export default function Desenvolvedores() {
   const navigate = useNavigate();
   const [desenvolvedores, setDesenvolvedores] = useState([]);
-  const [menuIndex, setMenuIndex] = useState(null); // Para controlar qual linha está com o menu aberto
 
   const getDesenvolvedores = async () => {
     try {
@@ -56,7 +55,7 @@ export default function Desenvolvedores() {
             <h1>Lista de Desenvolvedores</h1>
             <button
               className={styles.AdicionarDesenvolvedor}
-              onClick={redirectToCriar} 
+              onClick={redirectToCriar}
             >
               Novo desenvolvedor
             </button>
@@ -72,7 +71,7 @@ export default function Desenvolvedores() {
                   <th className={styles.titulosexo}>Sexo</th>
                   <th className={styles.titulodata}>Data de Nascimento</th>
                   <th className={styles.titulohobby}>Hobby</th>
-                  <th></th> {/* Espaço para os botões */}
+                  <th></th> {}
                 </tr>
               </thead>
 

@@ -1,7 +1,7 @@
 .home {
-    align-content: center;
-    margin: 0 2rem;
-  }
+  align-content: center;
+  margin: 0 2rem;
+}
 
 .home h1 {
   font-size: 20px;
@@ -20,12 +20,12 @@
 }
 
 .home p:last-of-type {
-    font-size: 16px;
-    font-family: "Inter";
-    font-weight: 500;
-    text-align: initial;
-    margin-bottom: 2rem;
-  }
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 500;
+  text-align: initial;
+  margin-bottom: 2rem;
+}
 
 .Desenvolvedores {
   font-size: 14px;

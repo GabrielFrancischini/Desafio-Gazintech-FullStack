@@ -11,7 +11,8 @@ Para rodar este projeto, você deve ter as seguintes ferramentas instaladas:
 
 ## Como iniciar o projeto
 
-Para iniciar o projeto, tanto quanto o frontend, backend e o banco de dados, basta rodar o comando:
+Para iniciar o projeto, frontend, backend e o banco de dados,
+navegue até a pasta Desafio-Gazintech-FullStack e execute o comando:
 
 ```
 docker-compose up -d --build
