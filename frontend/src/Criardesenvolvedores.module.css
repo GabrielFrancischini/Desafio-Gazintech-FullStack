@@ -1,0 +1,68 @@
+.form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.form form {
+  margin-top: 2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+label p {
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 600;
+  margin: 0 0 2px;
+}
+
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.CadastrarDesenvolvedor {
+  font-size: 14px;
+  font-family: "Inter";
+  color: white;
+  width: 200px;
+  height: 40px;
+  background-color: rgba(255, 154, 139, 1);
+  padding: 0px, 8px, 0px, 8px;
+  gap: 10px;
+  border-radius: 8px;
+  border-color: transparent;
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+.Voltar {
+  font-size: 14px;
+  font-family: "Inter";
+  width: 73px;
+  height: 40px;
+  background-color: white;
+  color: #000;
+  border-radius: 8px;
+  border-color: #000;
+  cursor: pointer;
+}

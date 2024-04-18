@@ -1,0 +1,136 @@
+.table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.th,
+td {
+  border-bottom: 1px solid rgb(214, 208, 208);
+  border: 0px 2px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f277;
+  border: 1px solid #dddddd86;
+}
+
+
+.semcadastro {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Inter";
+  font-weight: bold;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0 2rem;
+}
+
+.semcadastro {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Inter";
+  font-weight: bold;
+}
+
+.AdicionarDesenvolvedor {
+  font-size: 14px;
+  font-family: "Inter";
+  color: white;
+  width: 200px;
+  height: 40px;
+  background-color: rgba(255, 154, 139, 1);
+  padding: 0px, 16px, 0px, 16px;
+  gap: 10px;
+  border-radius: 8px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+h1 {
+  font-size: 20px;
+  font-family: "Inter";
+  font-weight: 700;
+  text-align: initial;
+}
+
+.titulonome {
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 500;
+  width: 400px;
+  height: 45px;
+  align-items: center;
+  text-align: initial;
+}
+
+.titulonivel,
+.tituloidade,
+.titulosexo,
+.titulodata,
+.titulohobby {
+  font-size: 18px;
+  font-family: "Inter";
+  font-weight: 500;
+  width: 400px;
+  height: 45px;
+  align-items: center;
+  text-align: center;
+}
+
+.nome {
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 600;
+  width: 400px;
+  height: 45px;
+  align-items: center;
+  text-align: initial;
+}
+
+.nivel,
+.idade,
+.sexo,
+.data,
+.hobby {
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 600;
+  width: 150px;
+  height: 45px;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.Editar {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.Excluir {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.botao {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,33 @@
+version: '3.9'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "3000:3000"
+    working_dir: /app
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:5173"
+    working_dir: /app
+  db:
+    image: postgres:alpine
+    restart: always
+    container_name: postgres
+    environment:
+      POSTGRES_PASSWORD: example
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/10-init.sql
+    ports:
+      - 5433:5432
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8181:8080
+
+volumes:
+  pgdata:

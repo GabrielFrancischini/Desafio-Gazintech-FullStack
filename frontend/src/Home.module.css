@@ -1,0 +1,42 @@
+.home {
+    align-content: center;
+    margin: 0 2rem;
+  }
+
+.home h1 {
+  font-size: 20px;
+  font-family: "Inter";
+  font-weight: 700;
+  text-align: initial;
+  margin-bottom: 2rem;
+}
+
+.home p {
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 500;
+  text-align: initial;
+  margin-bottom: 0.2rem;
+}
+
+.home p:last-of-type {
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: 500;
+    text-align: initial;
+    margin-bottom: 2rem;
+  }
+
+.Desenvolvedores {
+  font-size: 14px;
+  font-family: "Inter";
+  color: white;
+  width: 200px;
+  height: 40px;
+  background-color: rgba(255, 154, 139, 1);
+  padding: 0px, 16px, 0px, 16px;
+  gap: 10px;
+  border-radius: 8px;
+  border-color: transparent;
+  cursor: pointer;
+}
